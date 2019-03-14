@@ -1,0 +1,173 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "com.flyme.star.hijpa.config.druid.DruidDataSourceConfig",
+      "sourceType": "com.flyme.star.hijpa.config.druid.DruidDataSourceConfig"
+    },
+    {
+      "name": "swagger",
+      "type": "com.flyme.star.hijpa.config.Swagger2Config",
+      "sourceType": "com.flyme.star.hijpa.config.Swagger2Config"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.datasource.connection-properties",
+      "type": "java.lang.String",
+      "sourceType": "com.flyme.star.hijpa.config.druid.DruidDataSourceConfig"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.flyme.star.hijpa.config.druid.DruidDataSourceConfig"
+    },
+    {
+      "name": "spring.datasource.filters",
+      "type": "java.lang.String",
+      "sourceType": "com.flyme.star.hijpa.config.druid.DruidDataSourceConfig"
+    },
+    {
+      "name": "spring.datasource.initial-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.flyme.star.hijpa.config.druid.DruidDataSourceConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.flyme.star.hijpa.config.druid.DruidDataSourceConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.max-pool-prepared-statement-per-connection-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.flyme.star.hijpa.config.druid.DruidDataSourceConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.max-wait",
+      "type": "java.lang.Integer",
+      "sourceType": "com.flyme.star.hijpa.config.druid.DruidDataSourceConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.min-evictable-idle-time-millis",
+      "type": "java.lang.Integer",
+      "sourceType": "com.flyme.star.hijpa.config.druid.DruidDataSourceConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.flyme.star.hijpa.config.druid.DruidDataSourceConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.flyme.star.hijpa.config.druid.DruidDataSourceConfig"
+    },
+    {
+      "name": "spring.datasource.pool-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.flyme.star.hijpa.config.druid.DruidDataSourceConfig",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.datasource.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.flyme.star.hijpa.config.druid.DruidDataSourceConfig",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.datasource.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.flyme.star.hijpa.config.druid.DruidDataSourceConfig",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.datasource.test-while-idle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.flyme.star.hijpa.config.druid.DruidDataSourceConfig",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.datasource.time-between-eviction-runs-millis",
+      "type": "java.lang.Integer",
+      "sourceType": "com.flyme.star.hijpa.config.druid.DruidDataSourceConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "com.flyme.star.hijpa.config.druid.DruidDataSourceConfig"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "com.flyme.star.hijpa.config.druid.DruidDataSourceConfig"
+    },
+    {
+      "name": "spring.datasource.validation-query",
+      "type": "java.lang.String",
+      "sourceType": "com.flyme.star.hijpa.config.druid.DruidDataSourceConfig"
+    },
+    {
+      "name": "swagger.base-package",
+      "type": "java.lang.String",
+      "sourceType": "com.flyme.star.hijpa.config.Swagger2Config"
+    },
+    {
+      "name": "swagger.contact-email",
+      "type": "java.lang.String",
+      "sourceType": "com.flyme.star.hijpa.config.Swagger2Config"
+    },
+    {
+      "name": "swagger.contact-name",
+      "type": "java.lang.String",
+      "sourceType": "com.flyme.star.hijpa.config.Swagger2Config"
+    },
+    {
+      "name": "swagger.contact-url",
+      "type": "java.lang.String",
+      "sourceType": "com.flyme.star.hijpa.config.Swagger2Config"
+    },
+    {
+      "name": "swagger.desc",
+      "type": "java.lang.String",
+      "sourceType": "com.flyme.star.hijpa.config.Swagger2Config"
+    },
+    {
+      "name": "swagger.group-name",
+      "type": "java.lang.String",
+      "sourceType": "com.flyme.star.hijpa.config.Swagger2Config"
+    },
+    {
+      "name": "swagger.license",
+      "type": "java.lang.String",
+      "sourceType": "com.flyme.star.hijpa.config.Swagger2Config"
+    },
+    {
+      "name": "swagger.license-url",
+      "type": "java.lang.String",
+      "sourceType": "com.flyme.star.hijpa.config.Swagger2Config"
+    },
+    {
+      "name": "swagger.terms-of-service-url",
+      "type": "java.lang.String",
+      "sourceType": "com.flyme.star.hijpa.config.Swagger2Config"
+    },
+    {
+      "name": "swagger.title",
+      "type": "java.lang.String",
+      "sourceType": "com.flyme.star.hijpa.config.Swagger2Config"
+    },
+    {
+      "name": "swagger.version",
+      "type": "java.lang.String",
+      "sourceType": "com.flyme.star.hijpa.config.Swagger2Config"
+    }
+  ],
+  "hints": []
+}
